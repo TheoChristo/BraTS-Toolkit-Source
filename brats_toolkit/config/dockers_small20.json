@@ -1,0 +1,44 @@
+{
+    "sanet0-20":{
+        "name":"sanet0-20",
+        "author":"Yading Yuan",
+        "email": "yading.yuan@mountsinai.org",
+        "citation": "TODO",
+        "fileformat":"gz-b18",
+        "runtime":"nvidia",
+        "id":"brats/sanet0-20",
+        "command":"",
+        "mountpoint":"/app/data/",
+        "user_mode": true,
+        "root_issue": false,
+        "flags": "--shm-size=\"128G\""
+    },
+    "scan_lite-20":{
+        "name":"scan_lite-20",
+        "author":"Richard McKinley",
+        "email": "richard.mckinley@gmail.com",
+        "citation": "TODO",
+        "fileformat":"gz-b18",
+        "runtime":"nvidia",
+        "id":"brats/scan-20",
+        "command":"python3 DeepSCAN_BRATS_2020.py -l",
+        "mountpoint":"/app/data/",
+        "user_mode": true,
+        "root_issue": false,
+        "flags": ""
+    },
+    "scan-20":{
+        "name":"scan2020",
+        "author":"Richard McKinley",
+        "email": "richard.mckinley@gmail.com",
+        "citation": "TODO",
+        "fileformat":"gz-b18",
+        "runtime":"nvidia",
+        "id":"brats/scan-20",
+        "command":"python3 DeepSCAN_BRATS_2020.py",
+        "mountpoint":"/app/data/",
+        "user_mode": true,
+        "root_issue": false,
+        "flags": ""
+    }
+}
